@@ -6,7 +6,7 @@ This script scrapes high school volleyball schedules from [CountySports.Zone](ht
 ✅ Fetches schedules for multiple schools automatically  
 ✅ Outputs a clean CSV with **school name, date, time, home/away status, opponent, and result**  
 ✅ Handles missing data gracefully  
-✅ Easy setup with minimal dependencies  
+✅ Easy setup with `uv`, a fast Python package manager  
 
 ## **Installation**  
 1️⃣ Clone this repo:  
@@ -14,9 +14,11 @@ This script scrapes high school volleyball schedules from [CountySports.Zone](ht
 git clone https://github.com/jimmylin/hs-team-scrape.git  
 cd hs-team-scrape
 ```
-2️⃣ Install dependencies:  
+2️⃣ Install dependencies using `uv`:  
 ```sh
-pip install -r requirements.txt
+uv venv .venv
+source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+uv pip install -r requirements.txt
 ```
 
 ## **Usage**  
