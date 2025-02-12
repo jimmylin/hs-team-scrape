@@ -1,7 +1,3 @@
-Here’s a **README.md** for your repo that clearly explains its purpose, setup, and usage.  
-
----
-
 # **HS Team Scraper 🏐📅**  
 
 This script scrapes high school volleyball schedules from [CountySports.Zone](https://www.countysports.zone/) and saves them into a CSV file. It supports multiple schools, fetching schedules based on school IDs provided in an input file.  
@@ -56,7 +52,3 @@ Pull requests are welcome! If you find an issue or have suggestions, feel free t
 
 ## **License**  
 This project is licensed under the MIT License.  
-
----
-
-Let me know if you want any tweaks! 🚀
